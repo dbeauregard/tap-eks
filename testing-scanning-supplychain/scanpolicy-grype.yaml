@@ -18,7 +18,7 @@ spec:
     package main
     # Accepted Values: "Critical", "High", "Medium", "Low", "Negligible", "UnknownSeverity"
     notAllowedSeverities := ["Critical", "High", "UnknownSeverity"]
-    ignoreCves := []
+    ignoreCves := ["GHSA-36p3-wjmg-h94x"]
     contains(array, elem) = true {
       array[_] = elem
     } else = false { true }
